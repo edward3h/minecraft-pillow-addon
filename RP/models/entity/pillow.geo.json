@@ -1,0 +1,80 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.pillow",
+                "texture_width": 64,
+                "texture_height": 64,
+                "visible_bounds_width": 2,
+                "visible_bounds_height": 2.5,
+                "visible_bounds_offset": [
+                    0,
+                    0.75,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "pillow",
+                    "binding": "query.item_slot_to_bone_name(context.item_slot)",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -2,
+                                1,
+                                -6
+                            ],
+                            "size": [
+                                4,
+                                14,
+                                12
+                            ],
+                            "uv": [
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -1,
+                                0,
+                                -5
+                            ],
+                            "size": [
+                                2,
+                                1,
+                                10
+                            ],
+                            "uv": [
+                                22,
+                                16
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -1,
+                                15,
+                                -5
+                            ],
+                            "size": [
+                                2,
+                                1,
+                                10
+                            ],
+                            "uv": [
+                                20,
+                                0
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

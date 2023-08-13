@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "foxgames:pillow_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"c": {
+				"item": "minecraft:carpet"
+			},
+			"f": {
+				"item": "minecraft:feather"
+			}
+		},
+		"pattern": [
+			"ccc",
+			"fff",
+			"fff"
+		],
+		"result": {
+			"item": "foxgames:pillow"
+		}
+	}
+}
